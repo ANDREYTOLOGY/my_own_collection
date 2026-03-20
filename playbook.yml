@@ -1,0 +1,5 @@
+- name: Test role
+  hosts: localhost
+  gather_facts: false
+  roles:
+    - role: create_file_role
